@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+</head>
+<body>
+    <center>
+        <header>
+                <h1>Student Name</h1>
+                <nav>
+                    <span>
+                        <a href="#about">About</a>
+                    </span> | 
+                    <span>
+                        <a href="#skils">Skils</a>
+                    </span> |
+                     <span>
+                        <a href="#education">Education</a>
+                     </span> | 
+                     <span>
+                        <a href="#project">Projects</a>
+                     </span> |
+                      <span>
+                        <a href="#contact">Contact</a>
+                      </span>
+                </nav>
+        </header>
+    </center>
+
+    <hr>
+    <main>
+        <section>
+            <h3 id="about"><u><b>About</b></u></h3>
+            <img src="./image/tiger.jpg" alt="tiger" width="200">
+            <p>Hello! I am a student learning <span contenteditable="true">HTML</span>. This is my personal portfolio website.</p>
+        </section>
+        <hr>
+        <section>
+            <h3 id="skils"><u><b>Skills:</b></u></h3>
+          <div>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </ul>
+
+          </div>
+        </section>
+        <hr>
+        <section>
+            <h3 id="education"><b><u>Education:</u></b></h3>
+            <div>
+                <table width="100%" cellpadding="20" border="1" cellspacing="0" align="center">
+                    <tr align="center" >
+                        <td>SSC</td>
+                        <td>SGGS Thirpathi</td>
+                        <td>8.8</td>
+                    </tr>
+                    <tr align="center">
+                        <td>Inter</td>
+                        <td>Sri parayana</td>
+                        <td>95%</td>
+                    </tr>
+                    <tr align="center">
+                        <td>Engineering</td>
+                        <td>SSN Engineering</td>
+                        <td>7.8</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <h3 id="project"><b><u>My Projects:</u></b></h3>
+            <article>
+                <dl>
+                    <dt>Project Title</dt>
+                    <dd>
+                        Project Screenshot
+                        This project demonstrates my understanding of HTML and basic design.
+                        Let's divide the process into doable chunks so you can produce organized and powerful content for your project.
+                        Define Your Objectives. ...
+                        Research. ...
+                        Craft a Stellar Introduction. ...
+                        Explain the Background. ...
+                        Add Visual Appeal. ...
+                        Recommendations and Conclusions. ...
+                        Edit and Revise. ...
+                        Seek Feedback.
+                    </dd>
+                </dl>
+            </article>
+        </section>
+        <hr>
+        <section>
+           
+            <center>
+                <h4 id="contact"><b><u>Contact</u></b></h4>
+                <form action="./index.html" method="get" enctype="multipart/form-data" >
+                    <table cellpadding="10">
+                        <tr>
+                            <td>
+                                <label for="name">Name:</label>
+                                <input type="text" required id="name" name="name" autofocus>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">Email:</label>
+                                <input type="text" required id="email" name="email" pattern="[a-z0-9._]+@(gmail|yahoo)\.(com|in|gov|edu)">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="">Gender</label>
+                                <br>
+                                <label for="male">Male:</label>
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="female">Femal:</label>
+                                <input type="radio" id="female" name="gender" value="female">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="">Course:</label>
+
+                                <select name="Course" id="">
+                                    <option value="Btech">B Tech</option>
+                                    <option value="BSC">BSC</option>
+                                    <option value="AIML">AIML</option>
+
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="">Message:</label>
+                                <textarea name="" id="">
+                                    Type Message......
+                                </textarea>
+                            </td>
+                        </tr>
+                        <tr align="center">
+                            <td>
+                                <input type="submit">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </center>
+        </section>
+        <hr>
+        <section>
+            <aside>
+                <center>
+                    <h4>Watch My Video</h4>
+                    <video width="500" controls autoplay muted loop >
+                        <source src="./video/3129957-uhd_3840_2160_25fps.mp4" type="video/mp4">
+                    </video>
+                    <h4>Listen to My Audio</h4>
+                    <audio controls autoplay muted loop>
+                        <source src="./songs/[iSongs.info] 04 - Oh Prema (1).mp3" type="audio/mp3">
+                    </audio>
+                    <br>
+                    <picture>
+                        <source srcset="./image/tiger.jpg" media="(min-width:650px)">
+                        <source srcset="./image/down.avif" media="(min-width:456px)">
+                        <img src="./image/cat.jpg" alt="catimage" width="500">
+                    </picture>
+                </center>
+            </aside>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        
+        <center>
+            <h4>My location</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3805.3275228296734!2d78.3918643!3d17.491872!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f353776cef%3A0xc0f90da09aa4cf6!2sUniversity%20Ground%2C%20Ashok%20Nagar%2C%20Kukatpally%20Housing%20Board%20Colony%2C%20Kukatpally%2C%20Hyderabad%2C%20Telangana%20500072!5e0!3m2!1sen!2sin!4v1750997567883!5m2!1sen!2sin" frameborder="0" width="500"></iframe>
+
+            <p>
+                &copy; 2025 [Student Name]. All rights reserved.
+
+                     
+            </p>
+            <p>
+                 Follow me: <span><a href="">LinkedIn</a></span> | <span><a href="">GitHub</a></span>  
+            </p>
+        </center>
+    </footer>
+
+
+
+</body>
+</html>
